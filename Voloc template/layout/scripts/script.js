@@ -1,6 +1,4 @@
 $(document).ready(function() {
-            
-			$(".navbar_div").load("navbar.html");
 			
 			$('.category').hover(
 
@@ -16,6 +14,14 @@ $(document).ready(function() {
                 );
 
         });
+		
+		$(function() {
+			$(window).resize(function() {
+			var widthofframe = $(this).width() - 250;
+			$(".changeframes").css("width", widthofframe);
+			}).resize();
+		});
+
         function showTeam(){
             $('.team-frame').css('marginLeft','250px');
             $('.team-frame').fadeIn(1500);

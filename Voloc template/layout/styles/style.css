@@ -226,7 +226,6 @@ div.wrapper h6 {
 .changeframes {
     position: fixed;
     height: 100%;
-    width: 100%;
     display: none;
     right: 0;
     bottom: 0;
