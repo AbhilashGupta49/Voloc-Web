@@ -22,7 +22,7 @@ table{
 }
 
 .courses{
-	dispay				: block;
+	display				: block;
 	margin				: auto;
 	height				: 25%;
 	width				: 55%;/* change this for size of course's block*/
